@@ -1,0 +1,253 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #F96167;
+    width: 100%;
+    height: 65px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*padding-top: 5px;*/
+    color: #F9E795;
+    font-family: Montserrat;
+}
+
+nav img{
+    width: 150px;
+    height: 45px;
+    margin-top: 5px;
+}
+
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+
+.nav-con{
+    width: 50%;
+    height: 50px;
+    float: right;
+    margin-top: 12px;
+    padding-left: 250px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con li{
+    float: left;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+
+.nav-button{
+    background: none;
+    border: none;
+    color: #F9E795;
+    cursor: pointer;
+}
+
+.search-bar{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 50%;
+    color: #F9E795;
+    border: solid ;
+    padding-bottom: 5px;
+}
+
+header{
+    width: 100%;
+    height: 800px;
+    color: #F9E795;
+    background-image: url(../assets/The\ Beefinator.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 250px;
+    padding-left: 10%;
+}
+
+.sub-month-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background: none;
+    color: #F9E795;
+    border: 2px solid #F96167;
+    font-family: Montserrat;
+}
+
+.sub-month-button:hover{
+    cursor: pointer;
+    background-color: #F96167;
+    color: #F9E795;
+    border: none;
+}
+
+.about-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background: none;
+    border: 2px solid #F96167;
+    color: #F9E795;
+    margin-left: 20px;
+    font-family: Montserrat;
+}
+
+.about-button:hover{
+    cursor: pointer;
+    background-color: #F96167;
+    color: #F9E795;
+    border: none;
+}
+
+.subheader{
+    color: #F96167;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.box{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.sub1{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Jane.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub2{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Beefinator.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub3{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Cheesy\ Breezy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub4{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Chilla.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub5{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Meaty\ Giant.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub6{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Mother\ Clucker.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub7{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Multi-Masterpiece.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub8{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/The\ Quarter\ Queen.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-overlay{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 80px;
+    opacity: 0;
+}
+
+.sub-overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.content{
+    width: 250px;
+    height: 100px;
+    background-color: #F96167;
+    color: #F9E795;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-top: 9px;
+}
+
+.content h3{
+    font-family: Rubik;
+}
+
+.content p{
+    font-family: Montserrat;
+}
+
+.content h3, p{
+    margin: 0;
+}
+
+.about-left{
+    height: 100%;
+    background-color: #F96167;
+    color: #F9E795;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 150px;
+}
+
+.about-right img{
+    border-radius: 10px;
+}
+
+.card{
+    width: 29%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: left;
+    margin: 2%;
+}
